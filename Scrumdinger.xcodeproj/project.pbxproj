@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65B7631B2B3D9A2600E28B06 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B7631A2B3D9A2600E28B06 /* ThemeView.swift */; };
+		65B7631D2B3D9A7F00E28B06 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B7631C2B3D9A7F00E28B06 /* ThemePicker.swift */; };
 		65C524872B3D5FAB007513A6 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C524862B3D5FAB007513A6 /* ScrumdingerApp.swift */; };
 		65C524892B3D5FAB007513A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C524882B3D5FAB007513A6 /* ContentView.swift */; };
 		65C5248B2B3D5FAC007513A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C5248A2B3D5FAC007513A6 /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65B7631A2B3D9A2600E28B06 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		65B7631C2B3D9A7F00E28B06 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		65C524832B3D5FAB007513A6 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C524862B3D5FAB007513A6 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		65C524882B3D5FAB007513A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +52,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65B763192B3D9A0500E28B06 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				65C524882B3D5FAB007513A6 /* ContentView.swift */,
+				65C5249B2B3D6389007513A6 /* CardView.swift */,
+				65C5249F2B3D656A007513A6 /* ScrumsView.swift */,
+				65C524A12B3D6737007513A6 /* DetailView.swift */,
+				65C524A32B3D6A18007513A6 /* DetailEditView.swift */,
+				65C524942B3D602C007513A6 /* MeetingView.swift */,
+				65B7631A2B3D9A2600E28B06 /* ThemeView.swift */,
+				65B7631C2B3D9A7F00E28B06 /* ThemePicker.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		65C5247A2B3D5FAB007513A6 = {
 			isa = PBXGroup;
 			children = (
@@ -67,15 +86,10 @@
 		65C524852B3D5FAB007513A6 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
-				65C524962B3D6255007513A6 /* Models */,
 				65C524862B3D5FAB007513A6 /* ScrumdingerApp.swift */,
-				65C5249B2B3D6389007513A6 /* CardView.swift */,
-				65C5249F2B3D656A007513A6 /* ScrumsView.swift */,
-				65C524A12B3D6737007513A6 /* DetailView.swift */,
-				65C524A32B3D6A18007513A6 /* DetailEditView.swift */,
 				65C5249D2B3D6465007513A6 /* LabelStyle.swift */,
-				65C524882B3D5FAB007513A6 /* ContentView.swift */,
-				65C524942B3D602C007513A6 /* MeetingView.swift */,
+				65C524962B3D6255007513A6 /* Models */,
+				65B763192B3D9A0500E28B06 /* Views */,
 				65C5248A2B3D5FAC007513A6 /* Assets.xcassets */,
 				65C5248C2B3D5FAC007513A6 /* Preview Content */,
 			);
@@ -170,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65C5249A2B3D6354007513A6 /* DailyScrum.swift in Sources */,
+				65B7631B2B3D9A2600E28B06 /* ThemeView.swift in Sources */,
 				65C524A22B3D6738007513A6 /* DetailView.swift in Sources */,
 				65C524892B3D5FAB007513A6 /* ContentView.swift in Sources */,
 				65C5249E2B3D6465007513A6 /* LabelStyle.swift in Sources */,
@@ -177,6 +192,7 @@
 				65C524982B3D6263007513A6 /* Theme.swift in Sources */,
 				65C524872B3D5FAB007513A6 /* ScrumdingerApp.swift in Sources */,
 				65C524A42B3D6A18007513A6 /* DetailEditView.swift in Sources */,
+				65B7631D2B3D9A7F00E28B06 /* ThemePicker.swift in Sources */,
 				65C5249C2B3D6389007513A6 /* CardView.swift in Sources */,
 				65C524952B3D602C007513A6 /* MeetingView.swift in Sources */,
 			);
