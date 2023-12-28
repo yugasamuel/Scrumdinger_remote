@@ -17,6 +17,7 @@
 		65C5249C2B3D6389007513A6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5249B2B3D6389007513A6 /* CardView.swift */; };
 		65C5249E2B3D6465007513A6 /* LabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5249D2B3D6465007513A6 /* LabelStyle.swift */; };
 		65C524A02B3D656A007513A6 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5249F2B3D656A007513A6 /* ScrumsView.swift */; };
+		65C524A22B3D6738007513A6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C524A12B3D6737007513A6 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		65C5249B2B3D6389007513A6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		65C5249D2B3D6465007513A6 /* LabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelStyle.swift; sourceTree = "<group>"; };
 		65C5249F2B3D656A007513A6 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		65C524A12B3D6737007513A6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				65C524862B3D5FAB007513A6 /* ScrumdingerApp.swift */,
 				65C5249B2B3D6389007513A6 /* CardView.swift */,
 				65C5249F2B3D656A007513A6 /* ScrumsView.swift */,
+				65C524A12B3D6737007513A6 /* DetailView.swift */,
 				65C5249D2B3D6465007513A6 /* LabelStyle.swift */,
 				65C524882B3D5FAB007513A6 /* ContentView.swift */,
 				65C524942B3D602C007513A6 /* MeetingView.swift */,
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65C5249A2B3D6354007513A6 /* DailyScrum.swift in Sources */,
+				65C524A22B3D6738007513A6 /* DetailView.swift in Sources */,
 				65C524892B3D5FAB007513A6 /* ContentView.swift in Sources */,
 				65C5249E2B3D6465007513A6 /* LabelStyle.swift in Sources */,
 				65C524A02B3D656A007513A6 /* ScrumsView.swift in Sources */,
